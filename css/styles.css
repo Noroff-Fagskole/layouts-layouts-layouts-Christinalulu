@@ -1,0 +1,33 @@
+:root {
+  --brand-dark-gray: #bebdbd;
+  --brand-light-gray: #e9e9e9;
+  --brand-turquise: #c5f5fa;
+  --brand-white: #fff;
+  --brand-black: #000000;
+  --brand-red: #ff5b5a;
+}
+
+body {
+  background-color: var(--brand-white);
+}
+
+.conatiner {
+  max-width: var(--container-width);
+  margin: 0;
+}
+
+.app-header {
+  background-color: var(--brand-light-gray);
+}
+
+.app-body {
+  background-color: var(--brand-white);
+}
+
+.app-footer {
+  background-color: var(--brand-black);
+}
+
+.logo {
+  width: 122px;
+}
